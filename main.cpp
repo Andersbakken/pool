@@ -31,7 +31,7 @@ public:
             mFirstFree = tmp;
             ++freeCount;
         }
-        assert(freeCount != Count);
+        assert(freeCount == Count);
 #endif
     }
 
